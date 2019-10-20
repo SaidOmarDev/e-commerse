@@ -1,0 +1,221 @@
+/** global styles**/
+a:hover{
+    text-decoration: none;
+}
+/** global styles**/
+.content{
+    float: right;
+}
+/* Start of heading section */
+.heading{
+    padding: 30px 0;
+}
+.heading h4{
+    text-transform: uppercase;
+}
+.heading p{
+    color: #ccc
+}
+.heading span{
+    margin-right: 5px;
+}
+/* End of heading section */
+
+/* Start of category section */
+.category{
+    overflow: hidden;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.category nav{
+    float: left;
+}
+.category .po-count{
+    float: left;
+    margin-left: 70px;
+    width: 55%;
+}
+.category .po-count p{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    font-size: 12px;
+}
+.category .po-count .custom-range{
+    width: 35%;
+    height: 10px;
+}
+.category .pagination .page-link{
+    color: #999;
+    font-size: 12px;
+    padding: 3px 5px;
+    margin: 3px;
+}
+.category .select-category{
+    float: right;
+}
+.category .select-category .custom-select{
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+    width: 150px;
+}
+/* End of category section */
+/* Start of products card section */
+.pro-cards{
+    padding: 10px;
+}
+.pro-cards .card{
+    border: 1px solid transparent;
+    height: 350px;
+}
+.pro-cards .card:hover{
+    border: 1px solid #ccc;
+}
+.pro-cards .card img{
+    width: 100%;
+}
+.pro-cards .card span{
+    text-transform: capitalize;
+}
+.pro-cards .card hr{
+    margin: 5px 0;
+}
+.pro-cards .card h4{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.pro-cards .card .price{
+    display: inline;
+}
+.pro-cards .card .b-discount{
+    font-size: 10px;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.pro-cards .card .a-discount{
+    font-size: 13px;
+}
+.pro-cards .card .discount-percentage{
+    color: rgb(21, 123, 240);
+    border: 2px solid rgb(21, 123, 240);
+    float: right;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 2px 5px;
+}
+.pro-cards .card button{
+    color: white;
+    margin: 10px auto;
+    text-transform: capitalize;
+    display: none;
+}
+.pro-cards>hr{
+    width: 100%;
+}
+.pro-cards >nav{
+    margin: 0 auto;
+}
+.pro-cards .pagination .page-link{
+    color: #999;
+    font-size: 12px;
+    padding: 3px 5px;
+    margin: 3px;
+}
+/*End of products card section */
+/* start of aside section */
+aside{
+    float: left;
+    margin-top: 35px;
+}
+aside h4{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+/***************************/
+aside .home-office h4{
+    font-size: 20px;
+}
+aside .home-office ul{
+    list-style: none;
+    padding-left: 20px;
+}
+aside .home-office ul li a{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #777;
+}
+aside .home-office ul li a .fa{
+    font-size: 14px;
+    margin-right: 10px;
+}
+aside .home-office ul li:hover a{
+    color: #333;
+    border: none;
+}
+/*************************/
+aside .brand .form-inline input{
+    background-color: #eee;
+}
+aside .brand .form-inline .fa{
+    color: #777;
+    position: relative;
+    right: 30px;
+}
+aside .brand ul{
+    list-style: none;
+    padding-left: 10px;
+    height: 150px;
+    overflow: scroll;
+    margin: 10px 40px 10px 0;
+}
+aside .brand ul input{
+    margin-right: 10px;
+    padding: 2px;
+    background-color: transparent;
+}
+aside .brand ul li a{
+    padding: 5px 10px;
+    color: #777;
+    display: block;
+    font-size: 12px;
+}
+aside .brand ul li a:hover{
+    background-color: #eee;
+    border-radius: 3px;
+    color: #333;
+}
+/*********************************/
+aside .progress-price{
+    margin-right: 45px;
+    overflow: hidden;
+}
+aside .progress-price p{
+    width: 50%;
+    float: left;
+    border: 1px solid #eee;
+    padding: 5px;
+    font-size: 13px;
+}
+/*****************************/
+.progress{
+    width: 50%;
+    margin: 10px;
+}
+.progress .progress-bar{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 0;
+}
+/************************/
+.discount a{
+    color: #999;
+    display: block;
+    padding: 2px 10px;
+}
+.discount a:hover{
+    background-color: #eee;
+    color: #333;
+}
